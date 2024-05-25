@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --bs-primary: #264653;
+    --bs-secondary: #e9c46a;
+    --bs-success: #2a9d8f;
+    --bs-warning: #f4a259;
+    --bs-danger: #e76f51;
+
+}
+
+@font-face {
+    font-family: "Bangers";
+    src: url(assets/fonts/Bangers/Bangers-Regular.ttf) format("opentype");
+}
+
+.bg-primary, .text-primary {
+    background: var(--bs-primary) !important;
+}
+.bg-secondary, .text-secondary {
+    background: var(--bs-secondary) !important;
+}
+.bg-success, .text-success {
+    background: var(--bs-success) !important;
+}
+.bg-warning, .text-waring {
+    background: var(--bs-warning) !important;
+}
+.bg-danger, .text-danger {
+    background: var(--bs-danger) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Bangers", 'Times New Roman', Times, serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14 px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background: var(--bs-warning);
+}
+
+.nav-link {
+    color: var(--bs-warning);
+}
